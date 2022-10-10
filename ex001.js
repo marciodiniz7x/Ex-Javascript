@@ -1,7 +1,3 @@
-var a = 3;
-let b = 4;
+const escola = 'casa13'
 
-var a = 30;
-b = 40;
-
-console.log(a, b);
+console.log(escola.charCodeAt(1))
