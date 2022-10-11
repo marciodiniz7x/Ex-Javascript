@@ -1,3 +1,4 @@
-const escola = 'casa13'
-
-console.log(escola.charCodeAt(1))
+function somar(a, b) {
+    console.log(a+b)
+}
+somar(1, 2)
