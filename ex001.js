@@ -1,7 +1,10 @@
-const [a, b, c, d] = [3, 5, 1, 15];
+function comprar(trabalho1, trabalho2) {
+    const comprarSorvete = trabalho1 || trabalho2;
+    const comprarTv50 = trabalho1 && trabalho2;
+    const comprarTv32 = trabalho1 || trabalho2;
+    const manterSaudavel = !comprarSorvete
 
-function somar() {
-    let soma = a+b;
-    console.log(soma);
+    return {comprarSorvete, comprarTv32, comprarTv50, manterSaudavel};
 }
-somar()
+
+console.log(comprar(false, false));
