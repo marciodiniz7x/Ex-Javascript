@@ -1,5 +1,6 @@
-const somar = (a, b, c) => {
-    console.log(a + b + c);
+class somar {
+
 }
-somar(5, 4, 7)
+
+console.log(typeof somar)
 
