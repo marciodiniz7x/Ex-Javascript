@@ -1,7 +1,5 @@
-const nome = 'Marcio';
+const a = 7;
+let b = 3;
 
-function exec() {
-    const nome = 'Paulo';
-    console.log(nome)
-}
-exec()
+b += a;
+console.log(b)
