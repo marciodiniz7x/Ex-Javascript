@@ -1,4 +1,4 @@
-function somar(a, b) {
-    console.log(a+b)
+const somar = (a, b) => {
+    console.log(a + b);
 }
-somar(1, 2)
+somar(5, 4)
