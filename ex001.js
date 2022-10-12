@@ -1,10 +1,3 @@
-function comprar(trabalho1, trabalho2) {
-    const comprarSorvete = trabalho1 || trabalho2;
-    const comprarTv50 = trabalho1 && trabalho2;
-    const comprarTv32 = trabalho1 || trabalho2;
-    const manterSaudavel = !comprarSorvete
+const resultado = (nota) => nota >= 7 ? 'Aprovado' : "Reprovado";
 
-    return {comprarSorvete, comprarTv32, comprarTv50, manterSaudavel};
-}
-
-console.log(comprar(false, false));
+console.log(resultado(6.1));
