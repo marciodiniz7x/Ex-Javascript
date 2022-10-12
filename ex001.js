@@ -1,6 +1,7 @@
-class somar {
+const nome = 'Marcio';
 
+function exec() {
+    const nome = 'Paulo';
+    console.log(nome)
 }
-
-console.log(typeof somar)
-
+exec()
