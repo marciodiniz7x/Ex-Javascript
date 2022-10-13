@@ -53,4 +53,8 @@ const resultado = (a, b, operacao = soma) => {
 }
 
 resultado(3, 1);
-resultado(3, 1, soma)
+resultado(3, 1, soma);
+resultado(3, 1, (x, y) => {return x - y});
+resultado(3, 1, function(x, y, parametro = 2) {
+    return x - y + parametro
+})
