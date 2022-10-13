@@ -30,3 +30,19 @@ function acao3(acao) {
 acao3( function() {
     console.log('Oláaaa')
 })
+
+// 6) Adicionando parâmetros à função
+function soma() {
+    let soma = 0
+    for (i in arguments) {
+        soma += arguments[i]
+    }
+    return soma
+}
+console.log(soma(1))
+console.log(soma(1, 2))
+console.log(soma(1, 2, 3))
+console.log(soma(1, 2, 3, 4))
+
+// 7) Forma atual de adicionar parâmetro
+
