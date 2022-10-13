@@ -44,14 +44,13 @@
 // console.log(soma(1, 2, 3))
 // console.log(soma(1, 2, 3, 4))
 
-function pessoa() {
-    let idade = 0;
-
-    setInterval(() => {
-        console.log(idade);
-        idade++;
-        
-    }, 2000);
+const soma = (x, y) => {
+    return x + y;
 }
 
-new pessoa;
+const resultado = (a, b, operacao = soma) => {
+    console.log(operacao (a, b));
+}
+
+resultado(3, 1);
+resultado(3, 1, soma)
