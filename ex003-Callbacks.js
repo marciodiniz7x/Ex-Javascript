@@ -15,7 +15,7 @@ const notas = [7, 8, 9, 5, 6];
 const notasBaixas = [];
 for (let i in notas) {
     if (notas[i] < 7) {
-        notasBaixas.push(notas[i])
+        notasBaixas.push(notas[i]);
     }
 }
 
@@ -30,4 +30,4 @@ console.log(notasBaixas2);
 
 const notasBaixas3 = notas.filter((nota) => nota < 7);
 
-console.log(notasBaixas3)
+console.log(notasBaixas3);
